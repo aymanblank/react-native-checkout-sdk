@@ -1,0 +1,33 @@
+{
+  "name": "react-native-checkout-sdk",
+  "title": "React Native Checkout Sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aymanblank/react-native-checkout-sdk.git",
+    "baseUrl": "https://github.com/aymanblank/react-native-checkout-sdk"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": {
+    "name": "Ayman Abu Khalifa",
+    "email": "aymanblank@gmail.com"
+  },
+  "license": "Apache-2.0",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": "^16.5.0",
+    "react-native": ">=0.57.0-rc.0 <1.0.x"
+  },
+  "devDependencies": {
+    "react": "^16.5.0",
+    "react-native": "^0.59.4"
+  }
+}
