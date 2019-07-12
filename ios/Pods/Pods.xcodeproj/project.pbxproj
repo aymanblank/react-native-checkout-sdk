@@ -1,0 +1,1213 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		005F20137F9BC29CD475B919BF5C02D8 /* PhoneNumberKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BF70C42976CDB165174BB1348C92C8 /* PhoneNumberKit.swift */; };
+		017EA540FC83783BAEC4C97BD18227E1 /* icon-mastercard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8502440D9B5C5C1DED433E49934A02B /* icon-mastercard@2x.png */; };
+		024B6B2C002D4A3D04759B63573B5951 /* keyboard-previous@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B99C42273F35748DCB9AC8DC0194A48 /* keyboard-previous@3x.png */; };
+		0283D22D46142521967A36C35663C5A0 /* MetadataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9DAE91A7A7DED8BCB0308A26F18C6F /* MetadataManager.swift */; };
+		03F032821521BAD618FAF9132E3A9D24 /* keyboard-next@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03B73736EC77DDDC4694E251926ABCAB /* keyboard-next@2x.png */; };
+		048D0AC16ACB0B27DE7756B262862BB4 /* icon-jcb@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 503BEB87AE9575CAD519951A71B92C12 /* icon-jcb@3x.png */; };
+		05AAD5A903BC3FB1FD1F420FADBEA269 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8226DB37F570BC79A604F78DB8B73D /* Request.swift */; };
+		0695789551FEE35993478F454CC9A294 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB8916B11E59AC7D2FD925E15B31CC3 /* SessionManager.swift */; };
+		07CF422C95F749E3AB2DAD68332F9FA6 /* TokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7780CB33649EA704222E5D516C73481 /* TokenResponse.swift */; };
+		0A26E46CB07786AACF56585DBCCF3DBD /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7249B090C0D784AC025BBB6CA7AE393F /* UIViewExtensions.swift */; };
+		0A7D4E92D3231BA19BFDD5D8B31538D7 /* icon-dinersclub@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 631DD9F665472FEA62076A86E0716017 /* icon-dinersclub@3x.png */; };
+		0F61FA69AE78E763163114C278D442CA /* Pods-CheckoutSdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A17058B93B3DE49DBEB9E9E2405ACD7 /* Pods-CheckoutSdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10217219A5E63E0D5B4CB7E9E976EB95 /* CardUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B619899F8640BC3A1CA75F7927EF05 /* CardUtils.swift */; };
+		1409C62D9896265411B29D5EC97EE573 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC18AB7A4F0865AF3F44139822A2728 /* AddressView.swift */; };
+		15501D17919A57585551626DB0B417A3 /* AddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D5C3598ADC06A9DB97B8FE7FA28459 /* AddressViewController.swift */; };
+		17166E4EBF18AC641F68688162F97AAA /* AddressViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FF0FCB792E2C7BA73AECD0B28B0877 /* AddressViewControllerDelegate.swift */; };
+		1B05DDEA42CF58C56AFFD33456B9BACF /* CardNumberInputViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2FD944E2ED01C3D554E6DB284677C /* CardNumberInputViewDelegate.swift */; };
+		1D9279842BAE4EE7A92A8FB8EAE8A543 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6053F6CED98E1BB5762420032D0AFB58 /* Alamofire.swift */; };
+		1DD7F12F6E79F2B27262D7AB007F5809 /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2BCF5F9238EFBBF4EDDBAC46323EB2 /* Formatter.swift */; };
+		22E76D244C8166534AAE658D34D9DD84 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D8D5A2527F68F85C99D0B904D3F529 /* SessionDelegate.swift */; };
+		23BE4112574FE491895A50E35EE551CE /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6615ED76D626470696EA265A2B1D47BF /* ServerTrustPolicy.swift */; };
+		2561FD789C74E4FEEACCB6824B7DBFFB /* PartialFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B28060B3E2F1FA495DABD0D8A1CC876 /* PartialFormatter.swift */; };
+		272C5748B268088D7EA156678DAC97AD /* ApplePayToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC01C188E26EFBC0E3E9784B1300B23 /* ApplePayToken.swift */; };
+		27A41F43495E93CE232FC60A776A2217 /* PhoneNumberParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF02DCAA0D67280B45F6734E2B7C08 /* PhoneNumberParser.swift */; };
+		28427CA6475154595A9500D957D0DB4C /* CustomerCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADCB36ABCAE802885AD6CFB766F646B /* CustomerCard.swift */; };
+		2B354DBDF90220FF025398030F32B15F /* CvvInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCA71D8D20C3816DEE1923A43303407 /* CvvInputView.swift */; };
+		2C9F93256B37CC009724C6C554943E46 /* icon-dinersclub@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9C9581949FD7ED6EF307DE75D6334FA /* icon-dinersclub@2x.png */; };
+		2D3BC3C5D4C01C8BCA3A5DD27C13246F /* CardProviderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C79B8233DF41ACEF79328A773861BDC /* CardProviderResponse.swift */; };
+		2D52EDC722B46725636923CB0668F0EE /* CheckoutTokenStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBEECF3AEA327F833BB2EB6E95A5BA8 /* CheckoutTokenStatus.swift */; };
+		2EC3312667E38DC98E1F783141EBDED0 /* CardViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DBF4C02B5B0D2DDC5F455D53B6E6E1 /* CardViewControllerDelegate.swift */; };
+		2F8F26748D424D5E5EB2545B962A7200 /* CvvInputViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9701833FB8BB97EADED5DF967560C640 /* CvvInputViewDelegate.swift */; };
+		3059B346BA6E7EA80408760785A9F0FD /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932F557FC6392BD715B2DBBA77CE2742 /* CardViewController.swift */; };
+		32AC94A3A03B3ED34485A6BA6FA20905 /* icon-discover.png in Resources */ = {isa = PBXBuildFile; fileRef = 811A09DFE2A7A228C20F0DEA29F4F551 /* icon-discover.png */; };
+		34844AD05D5778864E15A90698500288 /* CkoCardTokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FCE91531B87A3A7208A126857757A7 /* CkoCardTokenResponse.swift */; };
+		37712065F5F655CE6C0EF85BBDCF6C94 /* PhoneNumberMetadata.json in Resources */ = {isa = PBXBuildFile; fileRef = 5573F9C7A4E90ACB06913BBC6604A09B /* PhoneNumberMetadata.json */; };
+		37DD23CE51997EA9EFACF9661075FE95 /* icon-amex@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 333F0D0AB779391CB3377BDDEB894819 /* icon-amex@2x.png */; };
+		398712FEA989082E9AF7C530BA8378B5 /* CkoAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DD9BCB04E301FD8B25DC1E5BE40298 /* CkoAddress.swift */; };
+		3CDD8950F56E651DFFBCD023FA6880A7 /* UIResponderExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002A1AD07300B2FA2CCE45D4AEF55626 /* UIResponderExtensions.swift */; };
+		3DC35341D4076DEB1627559D970471ED /* CardListCellName.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD53A9E8B23E27B441D12B7DE983BFF /* CardListCellName.swift */; };
+		3E3E8666FB400DBD752130C2AC3CA7E9 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101675E43B14A66EE000D5CBBE4DD603 /* TaskDelegate.swift */; };
+		3FD5E0EDD4B7665963E300FC085E80C0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCD69647999CBBB95C84310BF3A52BC /* Constants.swift */; };
+		403A5CA0F2155A566722C2B9C04EFEC7 /* icon-amex@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA543BE4B895586CC09CE54B0156F7BB /* icon-amex@3x.png */; };
+		40F2A96D14C37D2ABD25F914A8F4246E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		4301A5EAD7B5C0024D60B6022C9F087A /* checkmark@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10BB54F20D8C6CC31A1E24BA3FCFA00B /* checkmark@3x.png */; };
+		446090F8C8D0D77E8A442ADDEAD0B765 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F7C99F689065072AF0D9525C35D1DE /* Timeline.swift */; };
+		468D6F78102C92CA7719C6B2FBE5CB3E /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B156153F5896468F68F608C72ED5998 /* Response.swift */; };
+		47D2EFEAC88422488A3A45BE9DAB6DCF /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07CE270562745748879FBC14349B8DA /* CardView.swift */; };
+		483991E1B15984C8008E855D308C5F97 /* ApplePayErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423840B3952838DBC1FE29E1ABE827E6 /* ApplePayErrorResponse.swift */; };
+		4BAF36EE2D785DAD0E2543A7193A7AB2 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321BD956398F3BFD80C8E9A4C9025D8F /* ResponseSerialization.swift */; };
+		563D00441DC28D0611534F4864040D1E /* CheckoutSdkIos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C073EC91D8B358BA03EBEFE5B5BC68E /* CheckoutSdkIos.swift */; };
+		5727D1CA0B9BDFACC1E2C7933DB31F8C /* Frames-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F829369FE6ABEE0880A8B6C6ADF9E991 /* Frames-dummy.m */; };
+		5A9B9406796029AD288E3446A445F5FD /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25850D2FFEC6D62D9777C25EBC965EAF /* UIViewControllerExtensions.swift */; };
+		5B6273FFBFD5BF4A156DC07DBBC6F75F /* icon-discover@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49EEDF585501EE5B103CC2EB70895116 /* icon-discover@3x.png */; };
+		69DE015B95EA0119633380C3A19204FF /* DetailsInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEBB27C916F9D0B327FC63416DE0AD1 /* DetailsInputView.swift */; };
+		6B31604E5E3406F7FA344FB0B3FDE7C3 /* CardScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF09231553623912414668CAC276B71 /* CardScheme.swift */; };
+		6B649F4B05AA72608B1D41487073A3DB /* icon-mastercard@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1534733FAF638439BB5B822DDAE7F0EC /* icon-mastercard@3x.png */; };
+		761A57CAD92295C4DB6170DE3D5293EB /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2C8869D827313748AF7CE2F00B8314 /* Address.swift */; };
+		77BE32E20F77EE3E936EF85B5031F5E3 /* CkoPhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6491F1DA142D10CAEBDB5E5E89277903 /* CkoPhoneNumber.swift */; };
+		77DF6CA097AC49BEF3A38C10E55C4548 /* icon-visa.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE13E2ACF1745BAD732AABBCD5A4605 /* icon-visa.png */; };
+		789E2EF8C706FE300EDC1235F7088CC1 /* CkoCardTokenRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C301E3011F6D0A6A09728703FD836FE /* CkoCardTokenRequest.swift */; };
+		79337828E5688ED0FC6C17C0354103F1 /* SimpleLoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832B1652F8B3DDEE41752464726DBD3B /* SimpleLoadingViewController.swift */; };
+		799E48B1A81E0137A88F29995B68BB7C /* keyboard-down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 934573DA19DBCBB531ED761620D83EF5 /* keyboard-down@2x.png */; };
+		7D0331E2E88DB3B3EC98ADED569AD7A9 /* ParseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E97ADC265B52DCFBBA7D93900039A5 /* ParseManager.swift */; };
+		7F25AF26F11D6CB978B70FFC2F85283F /* ExpirationDatePickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8CAAC734E24847DF299FC6DA109F5F /* ExpirationDatePickerDelegate.swift */; };
+		7FA12EB2F05572350F3C9093F59488F0 /* ExpirationDateInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF692CAF7A6508CACD78CA3C75D9DA /* ExpirationDateInputView.swift */; };
+		7FC336356FE5FF781BE5B3B9E6F5D7E8 /* icon-mastercard.png in Resources */ = {isa = PBXBuildFile; fileRef = 514B52C0A80BDDC7504D1532E4430FF3 /* icon-mastercard.png */; };
+		8222627C80837A2A0E8BF712A5F9891B /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A6B847D5670CA07079ED885177725A /* Result.swift */; };
+		830525BF964C83850738A4A3103D4B70 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5DA4BC25475302BB432A94B4CE230 /* Validation.swift */; };
+		8328C57B7FBC80401E45E722C179C53B /* PhoneNumberInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAE2D38A473D7EEEAE36D671598A40B /* PhoneNumberInputView.swift */; };
+		83AFDF36BAA3704783F27F05EF8126C7 /* CardProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A290472D1156C8396AC607B782106D84 /* CardProvider.swift */; };
+		866457B5A3E6391AACD0FBAC192F2686 /* icon-discover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D39988729DC670CA128B03898AB2045 /* icon-discover@2x.png */; };
+		869962B22568627362C46956E1F483BA /* CvvConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A04ECC92E0BE8C265357AFF3BD1DC6 /* CvvConfirmationViewController.swift */; };
+		9056827BB52135514CD8A93E82975D82 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DE974EDEFD81EF1C409F295A883381 /* Endpoint.swift */; };
+		927FD88863E4E286BFA62CCEAE9315CB /* icon-dinersclub.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DE7048DE03D2C4B43C00F45A8CA9BC4 /* icon-dinersclub.png */; };
+		942E836CD9D53889A93FF87FF42B1E50 /* CvvConfirmationViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF49B9865CFADEBB1C97986EDD4BA27B /* CvvConfirmationViewControllerDelegate.swift */; };
+		9491BB981413FA7A30D60BF72915E717 /* MetadataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433028F251D1193581F5EFD130C3EC9A /* MetadataTypes.swift */; };
+		96A0D2376259D438F065E5423FA767D0 /* CardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D3E8DA6AAB058ADB40626D82997994 /* CardType.swift */; };
+		97068FB3B52E6CA43B07872FBDDD6E23 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C076C45D7A23CD793692A8CC699E88 /* Card.swift */; };
+		98C7904F9BEA2C3D23271BBED33361D0 /* InputState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD33D91601C15CE2EB8FA187052F4E07 /* InputState.swift */; };
+		998A3BB6431EE63F93B964DBCC086B31 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC314A503A1534C31BB4B256AF33AAD8 /* AFError.swift */; };
+		9E641F3DF68A3F8680F8CE7656987655 /* icon-jcb.png in Resources */ = {isa = PBXBuildFile; fileRef = A7B56B957B52FEF5F852F8C2CAD95F3C /* icon-jcb.png */; };
+		A0C4941FEE47CCD8295CA96EC6071F50 /* arrows in Resources */ = {isa = PBXBuildFile; fileRef = 3C3023D8DD55A35BE78691C7C8E4F05B /* arrows */; };
+		A0CAD2FA35549831C9E718E9160E7AEC /* CardTokenRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D46D73A5514AF19F6EEFF0EB9650202 /* CardTokenRequest.swift */; };
+		A18B4489FA9E51F4DBC5454C856B8218 /* schemes in Resources */ = {isa = PBXBuildFile; fileRef = 7C2483DDFAEDDC3418F9DB3BCC5BF2AC /* schemes */; };
+		A2F2BD37A3A432FE48D568040682DA10 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E68B593670CD653264959F13CF73EE /* MultipartFormData.swift */; };
+		A5835D3C93A7EBD6837C76C02137BF5E /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0FC0C99ACA228FE5D329BB5B8F0ED7 /* ParameterEncoding.swift */; };
+		A7480DA4BEF44E97F92E16107BA50D28 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2366F55C5786367749E462562A5F4EDD /* TextField.swift */; };
+		A7ED73E2D48A3CA099EC06E32EF31E10 /* keyboard-down@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DDE65B4DE380D470C79F79DD6AAFDB9 /* keyboard-down@3x.png */; };
+		A880C19D889F551C122272B712BB877C /* FramesIos.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B75E24326ACC5B6C1FDF94663808EED8 /* FramesIos.bundle */; };
+		A9C9794C52608F496EFDC1BA80068063 /* keyboard-down.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B3989BD16C26975018FA4094AD042AA /* keyboard-down.png */; };
+		AC8885BD830DE87B7E3E7A45AC3A2A68 /* CountrySelectionViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0C9E70152B081A2AD435C000E3201A /* CountrySelectionViewControllerDelegate.swift */; };
+		B27244922E634AFE93F67FC44350B024 /* icon-maestro@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30FAE83A1ADDC15A9893598E897BB179 /* icon-maestro@3x.png */; };
+		B607C79E3B544A35D1C18D062BC8420F /* ApplePayTokenRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68620BC2BE2C96B23D8232CA2840E84 /* ApplePayTokenRequest.swift */; };
+		B8387B4857AAD39EE885FEA3D94C209C /* icon-maestro@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D30130C5B8DAAA69699C5B766C43BF01 /* icon-maestro@2x.png */; };
+		B9A65607E718838CF723DB73B4086D25 /* icon-amex.png in Resources */ = {isa = PBXBuildFile; fileRef = 01CF462D4B45340C1353098FDC08F506 /* icon-amex.png */; };
+		BA4870F916093091A1AB567040DA009A /* NSRegularExpression+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF982CEE18D29EE3EE37A77663431141 /* NSRegularExpression+Swift.swift */; };
+		C2EBF4404ECF10E632CC074C6DFEA906 /* CheckoutTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F66A5DB2886BC0438ACB4D735874B1A /* CheckoutTheme.swift */; };
+		C3A73F4FBB6537D83E598DF84FC31479 /* icon-visa@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C6C3CA87E0D514D654FFE64FD92BA41 /* icon-visa@3x.png */; };
+		C4DF8CFC07C8544A544D234F54BA0092 /* ThreedsWebViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE59A2899700ED4EF2E608DB51B85023 /* ThreedsWebViewControllerDelegate.swift */; };
+		C73DFFA1F8345EB2580C2C854AD6D6C4 /* icon-jcb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97FC3A20E36B0BB07106840BCD441BCA /* icon-jcb@2x.png */; };
+		C7C1B7810A1C6C951C723C531AFA2068 /* Frames-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96B6921FF0C4B0849C0D00485EC3B7EA /* Frames-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CABF889D2D8CBDCF628B424C95FCBBFC /* keyboard-next@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB5E9CC8592132EF288875C0B1EA84F1 /* keyboard-next@3x.png */; };
+		CCC1B9F6E7992C21AE69C38235B4CF3F /* Pods-CheckoutSdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 795B80CD479E5938C00A328209DC0D5C /* Pods-CheckoutSdk-dummy.m */; };
+		CCD91DB96B888E838C303104A3DE22ED /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFD799048FE243075B4A5B3BFE546E3 /* StringExtensions.swift */; };
+		CD59AD3BF1B6CCBF4796E0AB6D015EA1 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B459A08AB3CC0B5939056F19A3944892 /* NetworkReachabilityManager.swift */; };
+		CF4BF588856299A170D79A1E9A63580F /* RegexManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36622858728D16F54B87103AB59484FB /* RegexManager.swift */; };
+		D077EC159FA38A9F256DC61F3D8319B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		D11FD838F34969F90E118658EDCF144B /* keyboard-next.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E0F496A15BF09DCB7067CC2E5296A28 /* keyboard-next.png */; };
+		D404110BA736170F8A2BCED9E14A37BE /* checkmarks in Resources */ = {isa = PBXBuildFile; fileRef = C6A04DBE19D25D77CE7382EA2AD29EE0 /* checkmarks */; };
+		D4B7ED8B99FB12506E57C83B6722BF6E /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434F0035B157FB185A28DE9675EB3F8F /* Notifications.swift */; };
+		D7D143A321D110C9A7C1377E0152C347 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5717449FC7F53AAABE112DD4E047732C /* Environment.swift */; };
+		D82C3DD6623609C2BF1A48B76B5A0A43 /* CardListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74869BB12C0E0F93F8CE5A22E562489E /* CardListCell.swift */; };
+		DD130B4E50ACEF0CD9686A7B81F63635 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43980C1B4B52D098D3A040B9E68FE4B /* DispatchQueue+Alamofire.swift */; };
+		DE72BD8B86BA15A52CE69C12C070CA9C /* CountrySelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF0AAF3EC88CCDB7946CAC60D67413C /* CountrySelectionViewController.swift */; };
+		DF7F28C4DD5BAD934130AB3CB5109F4A /* CheckoutAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2292672E5902590D3C46D598E3738AEB /* CheckoutAPIClient.swift */; };
+		E1AE7E9353768462A0D0F9C51B8A61C1 /* keyboard-previous.png in Resources */ = {isa = PBXBuildFile; fileRef = 73E829E5DD82B73342029BFA00D8FDA9 /* keyboard-previous.png */; };
+		E262DDE97C0EA4AD96FA2643292A1F1C /* checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = D305F6516E66B385071345A8C97B72EF /* checkmark.png */; };
+		EBB645BD3F3E28E51B8F00B1B6A0A514 /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E823D1D8C563E5B960823AC5F5C84B4 /* ErrorResponse.swift */; };
+		EE305DD4CC3AE5449E9F13F59482A8D2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A355E564543184E9DC42060A55CD8D9 /* Localizable.strings */; };
+		EFA0EE0559A7C975C97101B4BA35DF10 /* CustomerCardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB53FC376BFEE9C64D8802DD35FF23B /* CustomerCardList.swift */; };
+		EFC48FB0442862789BBAAF4279A100DE /* checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB1C8F3CB540EE2CE021DA2762C3D19 /* checkmark@2x.png */; };
+		F451B0A511F7DFD5C5CD921968A9732C /* CardNumberInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55D2C91DE8B611A0685B12389C2E38D /* CardNumberInputView.swift */; };
+		F58AA02FFFF67AA1095EDB2324522C34 /* SchemeIconsStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE98A4C7B3CEBB52D7128E5FA5895FF0 /* SchemeIconsStackView.swift */; };
+		F61613404C3077231305AF5F57CCAA46 /* StandardInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EE8F6B84EF32307BCE4C105CC21F29 /* StandardInputView.swift */; };
+		F6ABB07208B6674BAC9F5F43BCCA79D8 /* ExpirationDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F772E309BDC11F7266C46D1B91516D82 /* ExpirationDatePicker.swift */; };
+		F6E7C06609D87279ED10A94A0CFB0B8A /* keyboard-previous@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB3C90C47C59B977C3965B3E1157792E /* keyboard-previous@2x.png */; };
+		F7957028E0B894490367F8C0D8F677EF /* icon-maestro.png in Resources */ = {isa = PBXBuildFile; fileRef = EB81BE5EE28F5773F399F08425366528 /* icon-maestro.png */; };
+		F91A3A0DF4F487FCD650B751206211AB /* icon-visa@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D85CD0646C586FB8DC6E857E54A2B89 /* icon-visa@2x.png */; };
+		FC53ABDA95805AA02DEB9095D6B1576D /* PhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9082CAE672D5927DBD2DF89622D8DFF5 /* PhoneNumber.swift */; };
+		FD0A6A885E7CDD07BCCFD21C137D50B4 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9C5ACE9864BA7759B153D5EE914849 /* Customer.swift */; };
+		FF3D93AA4F590B8E401AA6DC7C3AEB4E /* ThreedsWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813CDA1797906CCF790A01F00678B56C /* ThreedsWebViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		360E057E79866CCE5F662E77462A09AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F21A7593A7F40045848B6215ED67E6C;
+			remoteInfo = "Frames-FramesIos";
+		};
+		3B9297FA958D9289D3C1AC9BBAD13F5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68DAD084CC790BE884E7970E483D3194;
+			remoteInfo = Frames;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002A1AD07300B2FA2CCE45D4AEF55626 /* UIResponderExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIResponderExtensions.swift; path = Source/UIResponderExtensions.swift; sourceTree = "<group>"; };
+		01CF462D4B45340C1353098FDC08F506 /* icon-amex.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon-amex.png"; path = "Source/Resources/schemes/icon-amex.png"; sourceTree = "<group>"; };
+		03B73736EC77DDDC4694E251926ABCAB /* keyboard-next@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "keyboard-next@2x.png"; path = "Source/Resources/arrows/keyboard-next@2x.png"; sourceTree = "<group>"; };
+		0A17058B93B3DE49DBEB9E9E2405ACD7 /* Pods-CheckoutSdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CheckoutSdk-umbrella.h"; sourceTree = "<group>"; };
+		101675E43B14A66EE000D5CBBE4DD603 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/Alamofire/TaskDelegate.swift; sourceTree = "<group>"; };
+		10BB54F20D8C6CC31A1E24BA3FCFA00B /* checkmark@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "checkmark@3x.png"; path = "Source/Resources/checkmarks/checkmark@3x.png"; sourceTree = "<group>"; };
+		1534733FAF638439BB5B822DDAE7F0EC /* icon-mastercard@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon-mastercard@3x.png"; path = "Source/Resources/schemes/icon-mastercard@3x.png"; sourceTree = "<group>"; };
+		16C076C45D7A23CD793692A8CC699E88 /* Card.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Card.swift; path = Source/Card.swift; sourceTree = "<group>"; };
+		1C301E3011F6D0A6A09728703FD836FE /* CkoCardTokenRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CkoCardTokenRequest.swift; path = Source/CkoCardTokenRequest.swift; sourceTree = "<group>"; };
+		1C6C3CA87E0D514D654FFE64FD92BA41 /* icon-visa@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon-visa@3x.png"; path = "Source/Resources/schemes/icon-visa@3x.png"; sourceTree = "<group>"; };
+		1CCA71D8D20C3816DEE1923A43303407 /* CvvInputView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CvvInputView.swift; path = Source/CvvInputView.swift; sourceTree = "<group>"; };
+		1DA2FD944E2ED01C3D554E6DB284677C /* CardNumberInputViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardNumberInputViewDelegate.swift; path = Source/CardNumberInputViewDelegate.swift; sourceTree = "<group>"; };
+		1DE7048DE03D2C4B43C00F45A8CA9BC4 /* icon-dinersclub.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon-dinersclub.png"; path = "Source/Resources/schemes/icon-dinersclub.png"; sourceTree = "<group>"; };
+		1E823D1D8C563E5B960823AC5F5C84B4 /* ErrorResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ErrorResponse.swift; path = Source/ErrorResponse.swift; sourceTree = "<group>"; };
+		1F2BCF5F9238EFBBF4EDDBAC46323EB2 /* Formatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Formatter.swift; path = Source/PhoneNumberKit/Formatter.swift; sourceTree = "<group>"; };
+		2292672E5902590D3C46D598E3738AEB /* CheckoutAPIClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckoutAPIClient.swift; path = Source/CheckoutAPIClient.swift; sourceTree = "<group>"; };
+		22EE8F6B84EF32307BCE4C105CC21F29 /* StandardInputView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StandardInputView.swift; path = Source/StandardInputView.swift; sourceTree = "<group>"; };
+		2366F55C5786367749E462562A5F4EDD /* TextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextField.swift; path = Source/PhoneNumberKit/TextField.swift; sourceTree = "<group>"; };
+		23E68B593670CD653264959F13CF73EE /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/Alamofire/MultipartFormData.swift; sourceTree = "<group>"; };
+		25850D2FFEC6D62D9777C25EBC965EAF /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewControllerExtensions.swift; path = Source/UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		2AEBB27C916F9D0B327FC63416DE0AD1 /* DetailsInputView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DetailsInputView.swift; path = Source/DetailsInputView.swift; sourceTree = "<group>"; };
+		2AFD799048FE243075B4A5B3BFE546E3 /* StringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = Source/StringExtensions.swift; sourceTree = "<group>"; };
+		2C4AAED952C76C00FF066A190E72B445 /* Pods-CheckoutSdk-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CheckoutSdk-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2D39988729DC670CA128B03898AB2045 /* icon-discover@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon-discover@2x.png"; path = "Source/Resources/schemes/icon-discover@2x.png"; sourceTree = "<group>"; };
+		2DAE2D38A473D7EEEAE36D671598A40B /* PhoneNumberInputView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhoneNumberInputView.swift; path = Source/PhoneNumberInputView.swift; sourceTree = "<group>"; };
+		2DDE65B4DE380D470C79F79DD6AAFDB9 /* keyboard-down@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "keyboard-down@3x.png"; path = "Source/Resources/arrows/keyboard-down@3x.png"; sourceTree = "<group>"; };
+		30FAE83A1ADDC15A9893598E897BB179 /* icon-maestro@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon-maestro@3x.png"; path = "Source/Resources/schemes/icon-maestro@3x.png"; sourceTree = "<group>"; };
+		321BD956398F3BFD80C8E9A4C9025D8F /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/Alamofire/ResponseSerialization.swift; sourceTree = "<group>"; };
+		32B619899F8640BC3A1CA75F7927EF05 /* CardUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardUtils.swift; path = Source/CardUtils.swift; sourceTree = "<group>"; };
+		32BF70C42976CDB165174BB1348C92C8 /* PhoneNumberKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhoneNumberKit.swift; path = Source/PhoneNumberKit/PhoneNumberKit.swift; sourceTree = "<group>"; };
+		333F0D0AB779391CB3377BDDEB894819 /* icon-amex@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon-amex@2x.png"; path = "Source/Resources/schemes/icon-amex@2x.png"; sourceTree = "<group>"; };
+		35B181413384A6870554494BE37EA00E /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		36622858728D16F54B87103AB59484FB /* RegexManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegexManager.swift; path = Source/PhoneNumberKit/RegexManager.swift; sourceTree = "<group>"; };
+		3A1AD86D88698C330DA8D78010883712 /* Pods_CheckoutSdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CheckoutSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B156153F5896468F68F608C72ED5998 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Alamofire/Response.swift; sourceTree = "<group>"; };
+		3BF0AAF3EC88CCDB7946CAC60D67413C /* CountrySelectionViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountrySelectionViewController.swift; path = Source/CountrySelectionViewController.swift; sourceTree = "<group>"; };
+		3C3023D8DD55A35BE78691C7C8E4F05B /* arrows */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = arrows; path = Source/Resources/arrows; sourceTree = "<group>"; };
+		3C79B8233DF41ACEF79328A773861BDC /* CardProviderResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardProviderResponse.swift; path = Source/CardProviderResponse.swift; sourceTree = "<group>"; };
+		3D85CD0646C586FB8DC6E857E54A2B89 /* icon-visa@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon-visa@2x.png"; path = "Source/Resources/schemes/icon-visa@2x.png"; sourceTree = "<group>"; };
+		401B2CAB4BA75C2CE43E50EB0F7F1B1E /* Frames-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Frames-Info.plist"; sourceTree = "<group>"; };
+		41A04ECC92E0BE8C265357AFF3BD1DC6 /* CvvConfirmationViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CvvConfirmationViewController.swift; path = Source/CvvConfirmationViewController.swift; sourceTree = "<group>"; };
+		423840B3952838DBC1FE29E1ABE827E6 /* ApplePayErrorResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApplePayErrorResponse.swift; path = Source/ApplePayErrorResponse.swift; sourceTree = "<group>"; };
+		433028F251D1193581F5EFD130C3EC9A /* MetadataTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MetadataTypes.swift; path = Source/PhoneNumberKit/MetadataTypes.swift; sourceTree = "<group>"; };
+		434F0035B157FB185A28DE9675EB3F8F /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Alamofire/Notifications.swift; sourceTree = "<group>"; };
+		45CB4490A7FD7D221C767752BA1E9E6B /* Pods-CheckoutSdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CheckoutSdk-Info.plist"; sourceTree = "<group>"; };
+		49EEDF585501EE5B103CC2EB70895116 /* icon-discover@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon-discover@3x.png"; path = "Source/Resources/schemes/icon-discover@3x.png"; sourceTree = "<group>"; };
+		4B99C42273F35748DCB9AC8DC0194A48 /* keyboard-previous@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "keyboard-previous@3x.png"; path = "Source/Resources/arrows/keyboard-previous@3x.png"; sourceTree = "<group>"; };
+		4E0F496A15BF09DCB7067CC2E5296A28 /* keyboard-next.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "keyboard-next.png"; path = "Source/Resources/arrows/keyboard-next.png"; sourceTree = "<group>"; };
+		503BEB87AE9575CAD519951A71B92C12 /* icon-jcb@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon-jcb@3x.png"; path = "Source/Resources/schemes/icon-jcb@3x.png"; sourceTree = "<group>"; };
+		514B52C0A80BDDC7504D1532E4430FF3 /* icon-mastercard.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon-mastercard.png"; path = "Source/Resources/schemes/icon-mastercard.png"; sourceTree = "<group>"; };
+		543B8F6C9445034BB29B6A023B86C1DE /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		546767604199F7629C434FE2AC6EF5E2 /* Pods-CheckoutSdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CheckoutSdk.debug.xcconfig"; sourceTree = "<group>"; };
+		5573F9C7A4E90ACB06913BBC6604A09B /* PhoneNumberMetadata.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = PhoneNumberMetadata.json; path = Source/Resources/PhoneNumberMetadata.json; sourceTree = "<group>"; };
+		5717449FC7F53AAABE112DD4E047732C /* Environment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Environment.swift; path = Source/Environment.swift; sourceTree = "<group>"; };
+		5C073EC91D8B358BA03EBEFE5B5BC68E /* CheckoutSdkIos.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckoutSdkIos.swift; path = Source/CheckoutSdkIos.swift; sourceTree = "<group>"; };
+		5CC01C188E26EFBC0E3E9784B1300B23 /* ApplePayToken.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApplePayToken.swift; path = Source/ApplePayToken.swift; sourceTree = "<group>"; };
+		5D46D73A5514AF19F6EEFF0EB9650202 /* CardTokenRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardTokenRequest.swift; path = Source/CardTokenRequest.swift; sourceTree = "<group>"; };
+		6053F6CED98E1BB5762420032D0AFB58 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire/Alamofire.swift; sourceTree = "<group>"; };
+		631DD9F665472FEA62076A86E0716017 /* icon-dinersclub@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon-dinersclub@3x.png"; path = "Source/Resources/schemes/icon-dinersclub@3x.png"; sourceTree = "<group>"; };
+		6491F1DA142D10CAEBDB5E5E89277903 /* CkoPhoneNumber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CkoPhoneNumber.swift; path = Source/CkoPhoneNumber.swift; sourceTree = "<group>"; };
+		6615ED76D626470696EA265A2B1D47BF /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/Alamofire/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		6814D2A28F45181C716F9C2FB469FFAE /* Pods-CheckoutSdk-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CheckoutSdk-acknowledgements.plist"; sourceTree = "<group>"; };
+		6BC18AB7A4F0865AF3F44139822A2728 /* AddressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AddressView.swift; path = Source/AddressView.swift; sourceTree = "<group>"; };
+		6E0C9E70152B081A2AD435C000E3201A /* CountrySelectionViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountrySelectionViewControllerDelegate.swift; path = Source/CountrySelectionViewControllerDelegate.swift; sourceTree = "<group>"; };
+		6F66A5DB2886BC0438ACB4D735874B1A /* CheckoutTheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckoutTheme.swift; path = Source/CheckoutTheme.swift; sourceTree = "<group>"; };
+		7249B090C0D784AC025BBB6CA7AE393F /* UIViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewExtensions.swift; path = Source/UIViewExtensions.swift; sourceTree = "<group>"; };
+		73E829E5DD82B73342029BFA00D8FDA9 /* keyboard-previous.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "keyboard-previous.png"; path = "Source/Resources/arrows/keyboard-previous.png"; sourceTree = "<group>"; };
+		74869BB12C0E0F93F8CE5A22E562489E /* CardListCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardListCell.swift; path = Source/CardListCell.swift; sourceTree = "<group>"; };
+		74FB3FFB210CA923EC700CF1D26C3AAF /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		75DE974EDEFD81EF1C409F295A883381 /* Endpoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Endpoint.swift; path = Source/Endpoint.swift; sourceTree = "<group>"; };
+		795B80CD479E5938C00A328209DC0D5C /* Pods-CheckoutSdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CheckoutSdk-dummy.m"; sourceTree = "<group>"; };
+		79A6B847D5670CA07079ED885177725A /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Alamofire/Result.swift; sourceTree = "<group>"; };
+		7C2483DDFAEDDC3418F9DB3BCC5BF2AC /* schemes */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = schemes; path = Source/Resources/schemes; sourceTree = "<group>"; };
+		7E2C8869D827313748AF7CE2F00B8314 /* Address.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Address.swift; path = Source/Address.swift; sourceTree = "<group>"; };
+		7FF09231553623912414668CAC276B71 /* CardScheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardScheme.swift; path = Source/CardScheme.swift; sourceTree = "<group>"; };
+		80DD9BCB04E301FD8B25DC1E5BE40298 /* CkoAddress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CkoAddress.swift; path = Source/CkoAddress.swift; sourceTree = "<group>"; };
+		811A09DFE2A7A228C20F0DEA29F4F551 /* icon-discover.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon-discover.png"; path = "Source/Resources/schemes/icon-discover.png"; sourceTree = "<group>"; };
+		813CDA1797906CCF790A01F00678B56C /* ThreedsWebViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThreedsWebViewController.swift; path = Source/ThreedsWebViewController.swift; sourceTree = "<group>"; };
+		832B1652F8B3DDEE41752464726DBD3B /* SimpleLoadingViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleLoadingViewController.swift; path = Source/SimpleLoadingViewController.swift; sourceTree = "<group>"; };
+		86FCE91531B87A3A7208A126857757A7 /* CkoCardTokenResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CkoCardTokenResponse.swift; path = Source/CkoCardTokenResponse.swift; sourceTree = "<group>"; };
+		87D3E8DA6AAB058ADB40626D82997994 /* CardType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardType.swift; path = Source/CardType.swift; sourceTree = "<group>"; };
+		8B0FC0C99ACA228FE5D329BB5B8F0ED7 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/Alamofire/ParameterEncoding.swift; sourceTree = "<group>"; };
+		8B28060B3E2F1FA495DABD0D8A1CC876 /* PartialFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PartialFormatter.swift; path = Source/PhoneNumberKit/PartialFormatter.swift; sourceTree = "<group>"; };
+		8B3989BD16C26975018FA4094AD042AA /* keyboard-down.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "keyboard-down.png"; path = "Source/Resources/arrows/keyboard-down.png"; sourceTree = "<group>"; };
+		8BBEECF3AEA327F833BB2EB6E95A5BA8 /* CheckoutTokenStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckoutTokenStatus.swift; path = Source/CheckoutTokenStatus.swift; sourceTree = "<group>"; };
+		8CCD69647999CBBB95C84310BF3A52BC /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Source/PhoneNumberKit/Constants.swift; sourceTree = "<group>"; };
+		8D70E8DF4F6FF2DF67F9C6DFAD555E50 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8EB8916B11E59AC7D2FD925E15B31CC3 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/Alamofire/SessionManager.swift; sourceTree = "<group>"; };
+		9082CAE672D5927DBD2DF89622D8DFF5 /* PhoneNumber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhoneNumber.swift; path = Source/PhoneNumberKit/PhoneNumber.swift; sourceTree = "<group>"; };
+		932F557FC6392BD715B2DBBA77CE2742 /* CardViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardViewController.swift; path = Source/CardViewController.swift; sourceTree = "<group>"; };
+		934573DA19DBCBB531ED761620D83EF5 /* keyboard-down@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "keyboard-down@2x.png"; path = "Source/Resources/arrows/keyboard-down@2x.png"; sourceTree = "<group>"; };
+		94FF692CAF7A6508CACD78CA3C75D9DA /* ExpirationDateInputView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpirationDateInputView.swift; path = Source/ExpirationDateInputView.swift; sourceTree = "<group>"; };
+		96B6921FF0C4B0849C0D00485EC3B7EA /* Frames-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Frames-umbrella.h"; sourceTree = "<group>"; };
+		9701833FB8BB97EADED5DF967560C640 /* CvvInputViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CvvInputViewDelegate.swift; path = Source/CvvInputViewDelegate.swift; sourceTree = "<group>"; };
+		97FC3A20E36B0BB07106840BCD441BCA /* icon-jcb@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon-jcb@2x.png"; path = "Source/Resources/schemes/icon-jcb@2x.png"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FC5DA4BC25475302BB432A94B4CE230 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Alamofire/Validation.swift; sourceTree = "<group>"; };
+		9FF4E37AC3558703B73B9B7E7965B6DC /* ResourceBundle-FramesIos-Frames-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FramesIos-Frames-Info.plist"; sourceTree = "<group>"; };
+		A04A0F54A708ED6751D6755BE88BAB0E /* Frames.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Frames.xcconfig; sourceTree = "<group>"; };
+		A07CE270562745748879FBC14349B8DA /* CardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardView.swift; path = Source/CardView.swift; sourceTree = "<group>"; };
+		A290472D1156C8396AC607B782106D84 /* CardProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardProvider.swift; path = Source/CardProvider.swift; sourceTree = "<group>"; };
+		A43980C1B4B52D098D3A040B9E68FE4B /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/Alamofire/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		A7780CB33649EA704222E5D516C73481 /* TokenResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TokenResponse.swift; path = Source/TokenResponse.swift; sourceTree = "<group>"; };
+		A7B56B957B52FEF5F852F8C2CAD95F3C /* icon-jcb.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon-jcb.png"; path = "Source/Resources/schemes/icon-jcb.png"; sourceTree = "<group>"; };
+		B24D51FA57DF78DD5B3982671021B166 /* Pods-CheckoutSdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CheckoutSdk.modulemap"; sourceTree = "<group>"; };
+		B459A08AB3CC0B5939056F19A3944892 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/Alamofire/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		B4FF02DCAA0D67280B45F6734E2B7C08 /* PhoneNumberParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhoneNumberParser.swift; path = Source/PhoneNumberKit/PhoneNumberParser.swift; sourceTree = "<group>"; };
+		B75E24326ACC5B6C1FDF94663808EED8 /* FramesIos.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FramesIos.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB9C5ACE9864BA7759B153D5EE914849 /* Customer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Customer.swift; path = Source/Customer.swift; sourceTree = "<group>"; };
+		BDB1C8F3CB540EE2CE021DA2762C3D19 /* checkmark@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "checkmark@2x.png"; path = "Source/Resources/checkmarks/checkmark@2x.png"; sourceTree = "<group>"; };
+		C6A04DBE19D25D77CE7382EA2AD29EE0 /* checkmarks */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = checkmarks; path = Source/Resources/checkmarks; sourceTree = "<group>"; };
+		C6E97ADC265B52DCFBBA7D93900039A5 /* ParseManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParseManager.swift; path = Source/PhoneNumberKit/ParseManager.swift; sourceTree = "<group>"; };
+		C8DBF4C02B5B0D2DDC5F455D53B6E6E1 /* CardViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardViewControllerDelegate.swift; path = Source/CardViewControllerDelegate.swift; sourceTree = "<group>"; };
+		C9D8D5A2527F68F85C99D0B904D3F529 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/Alamofire/SessionDelegate.swift; sourceTree = "<group>"; };
+		CA1259AB798AEDEF1BEA6E8A572A7E70 /* Frames.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Frames.modulemap; sourceTree = "<group>"; };
+		CA543BE4B895586CC09CE54B0156F7BB /* icon-amex@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon-amex@3x.png"; path = "Source/Resources/schemes/icon-amex@3x.png"; sourceTree = "<group>"; };
+		CB3C90C47C59B977C3965B3E1157792E /* keyboard-previous@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "keyboard-previous@2x.png"; path = "Source/Resources/arrows/keyboard-previous@2x.png"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CB5E9CC8592132EF288875C0B1EA84F1 /* keyboard-next@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "keyboard-next@3x.png"; path = "Source/Resources/arrows/keyboard-next@3x.png"; sourceTree = "<group>"; };
+		CC314A503A1534C31BB4B256AF33AAD8 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/Alamofire/AFError.swift; sourceTree = "<group>"; };
+		D30130C5B8DAAA69699C5B766C43BF01 /* icon-maestro@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon-maestro@2x.png"; path = "Source/Resources/schemes/icon-maestro@2x.png"; sourceTree = "<group>"; };
+		D305F6516E66B385071345A8C97B72EF /* checkmark.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = checkmark.png; path = Source/Resources/checkmarks/checkmark.png; sourceTree = "<group>"; };
+		D6F7C99F689065072AF0D9525C35D1DE /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Alamofire/Timeline.swift; sourceTree = "<group>"; };
+		D8D058615B779E188BDED6E01DA5083A /* Frames-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Frames-prefix.pch"; sourceTree = "<group>"; };
+		D9C9581949FD7ED6EF307DE75D6334FA /* icon-dinersclub@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon-dinersclub@2x.png"; path = "Source/Resources/schemes/icon-dinersclub@2x.png"; sourceTree = "<group>"; };
+		DA8CAAC734E24847DF299FC6DA109F5F /* ExpirationDatePickerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpirationDatePickerDelegate.swift; path = Source/ExpirationDatePickerDelegate.swift; sourceTree = "<group>"; };
+		DAD53A9E8B23E27B441D12B7DE983BFF /* CardListCellName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardListCellName.swift; path = Source/CardListCellName.swift; sourceTree = "<group>"; };
+		DD33D91601C15CE2EB8FA187052F4E07 /* InputState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InputState.swift; path = Source/InputState.swift; sourceTree = "<group>"; };
+		E55D2C91DE8B611A0685B12389C2E38D /* CardNumberInputView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardNumberInputView.swift; path = Source/CardNumberInputView.swift; sourceTree = "<group>"; };
+		E68620BC2BE2C96B23D8232CA2840E84 /* ApplePayTokenRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApplePayTokenRequest.swift; path = Source/ApplePayTokenRequest.swift; sourceTree = "<group>"; };
+		EADCB36ABCAE802885AD6CFB766F646B /* CustomerCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomerCard.swift; path = Source/CustomerCard.swift; sourceTree = "<group>"; };
+		EAE13E2ACF1745BAD732AABBCD5A4605 /* icon-visa.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon-visa.png"; path = "Source/Resources/schemes/icon-visa.png"; sourceTree = "<group>"; };
+		EB81BE5EE28F5773F399F08425366528 /* icon-maestro.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon-maestro.png"; path = "Source/Resources/schemes/icon-maestro.png"; sourceTree = "<group>"; };
+		ED258950D33E93C2DA34B3989138960E /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		ED9DAE91A7A7DED8BCB0308A26F18C6F /* MetadataManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MetadataManager.swift; path = Source/PhoneNumberKit/MetadataManager.swift; sourceTree = "<group>"; };
+		EDC1E8A61DBCB869BB6C47DC2DBF3D93 /* Frames.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Frames.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE1B2FC5A57D5487B77BDA338210358B /* Pods-CheckoutSdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CheckoutSdk.release.xcconfig"; sourceTree = "<group>"; };
+		EE98A4C7B3CEBB52D7128E5FA5895FF0 /* SchemeIconsStackView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SchemeIconsStackView.swift; path = Source/SchemeIconsStackView.swift; sourceTree = "<group>"; };
+		EF982CEE18D29EE3EE37A77663431141 /* NSRegularExpression+Swift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSRegularExpression+Swift.swift"; path = "Source/PhoneNumberKit/NSRegularExpression+Swift.swift"; sourceTree = "<group>"; };
+		F1929C59323F92F47679A10B8FDF1C32 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5FF0FCB792E2C7BA73AECD0B28B0877 /* AddressViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AddressViewControllerDelegate.swift; path = Source/AddressViewControllerDelegate.swift; sourceTree = "<group>"; };
+		F6D5C3598ADC06A9DB97B8FE7FA28459 /* AddressViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AddressViewController.swift; path = Source/AddressViewController.swift; sourceTree = "<group>"; };
+		F772E309BDC11F7266C46D1B91516D82 /* ExpirationDatePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpirationDatePicker.swift; path = Source/ExpirationDatePicker.swift; sourceTree = "<group>"; };
+		F829369FE6ABEE0880A8B6C6ADF9E991 /* Frames-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Frames-dummy.m"; sourceTree = "<group>"; };
+		F8502440D9B5C5C1DED433E49934A02B /* icon-mastercard@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon-mastercard@2x.png"; path = "Source/Resources/schemes/icon-mastercard@2x.png"; sourceTree = "<group>"; };
+		FB8226DB37F570BC79A604F78DB8B73D /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Alamofire/Request.swift; sourceTree = "<group>"; };
+		FE59A2899700ED4EF2E608DB51B85023 /* ThreedsWebViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThreedsWebViewControllerDelegate.swift; path = Source/ThreedsWebViewControllerDelegate.swift; sourceTree = "<group>"; };
+		FEB53FC376BFEE9C64D8802DD35FF23B /* CustomerCardList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomerCardList.swift; path = Source/CustomerCardList.swift; sourceTree = "<group>"; };
+		FF49B9865CFADEBB1C97986EDD4BA27B /* CvvConfirmationViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CvvConfirmationViewControllerDelegate.swift; path = Source/CvvConfirmationViewControllerDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		157F9F6CA59EB33CB11318FB7D5F8B12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69DC04D881A84F5F54DEDFFE33C4B2D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F2A96D14C37D2ABD25F914A8F4246E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A042A4F857593F580BFCAEDC59F483D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D077EC159FA38A9F256DC61F3D8319B2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0725EF431FEA8B66170295E67DBFD6CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6743C33F164DC401CBAB73E9F2C089A4 /* Frames */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1E32C0B9D71B86DB8BDDD9E2EA84E729 /* Pods-CheckoutSdk */ = {
+			isa = PBXGroup;
+			children = (
+				B24D51FA57DF78DD5B3982671021B166 /* Pods-CheckoutSdk.modulemap */,
+				2C4AAED952C76C00FF066A190E72B445 /* Pods-CheckoutSdk-acknowledgements.markdown */,
+				6814D2A28F45181C716F9C2FB469FFAE /* Pods-CheckoutSdk-acknowledgements.plist */,
+				795B80CD479E5938C00A328209DC0D5C /* Pods-CheckoutSdk-dummy.m */,
+				45CB4490A7FD7D221C767752BA1E9E6B /* Pods-CheckoutSdk-Info.plist */,
+				0A17058B93B3DE49DBEB9E9E2405ACD7 /* Pods-CheckoutSdk-umbrella.h */,
+				546767604199F7629C434FE2AC6EF5E2 /* Pods-CheckoutSdk.debug.xcconfig */,
+				EE1B2FC5A57D5487B77BDA338210358B /* Pods-CheckoutSdk.release.xcconfig */,
+			);
+			name = "Pods-CheckoutSdk";
+			path = "Target Support Files/Pods-CheckoutSdk";
+			sourceTree = "<group>";
+		};
+		226094EEE2F36E0E3F73F3621537AA1E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E32C0B9D71B86DB8BDDD9E2EA84E729 /* Pods-CheckoutSdk */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		37B1CE2C617662F7B29CC32578A26AEF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA1259AB798AEDEF1BEA6E8A572A7E70 /* Frames.modulemap */,
+				A04A0F54A708ED6751D6755BE88BAB0E /* Frames.xcconfig */,
+				F829369FE6ABEE0880A8B6C6ADF9E991 /* Frames-dummy.m */,
+				401B2CAB4BA75C2CE43E50EB0F7F1B1E /* Frames-Info.plist */,
+				D8D058615B779E188BDED6E01DA5083A /* Frames-prefix.pch */,
+				96B6921FF0C4B0849C0D00485EC3B7EA /* Frames-umbrella.h */,
+				9FF4E37AC3558703B73B9B7E7965B6DC /* ResourceBundle-FramesIos-Frames-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Frames";
+			sourceTree = "<group>";
+		};
+		6743C33F164DC401CBAB73E9F2C089A4 /* Frames */ = {
+			isa = PBXGroup;
+			children = (
+				7E2C8869D827313748AF7CE2F00B8314 /* Address.swift */,
+				6BC18AB7A4F0865AF3F44139822A2728 /* AddressView.swift */,
+				F6D5C3598ADC06A9DB97B8FE7FA28459 /* AddressViewController.swift */,
+				F5FF0FCB792E2C7BA73AECD0B28B0877 /* AddressViewControllerDelegate.swift */,
+				CC314A503A1534C31BB4B256AF33AAD8 /* AFError.swift */,
+				6053F6CED98E1BB5762420032D0AFB58 /* Alamofire.swift */,
+				423840B3952838DBC1FE29E1ABE827E6 /* ApplePayErrorResponse.swift */,
+				5CC01C188E26EFBC0E3E9784B1300B23 /* ApplePayToken.swift */,
+				E68620BC2BE2C96B23D8232CA2840E84 /* ApplePayTokenRequest.swift */,
+				16C076C45D7A23CD793692A8CC699E88 /* Card.swift */,
+				74869BB12C0E0F93F8CE5A22E562489E /* CardListCell.swift */,
+				DAD53A9E8B23E27B441D12B7DE983BFF /* CardListCellName.swift */,
+				E55D2C91DE8B611A0685B12389C2E38D /* CardNumberInputView.swift */,
+				1DA2FD944E2ED01C3D554E6DB284677C /* CardNumberInputViewDelegate.swift */,
+				A290472D1156C8396AC607B782106D84 /* CardProvider.swift */,
+				3C79B8233DF41ACEF79328A773861BDC /* CardProviderResponse.swift */,
+				7FF09231553623912414668CAC276B71 /* CardScheme.swift */,
+				5D46D73A5514AF19F6EEFF0EB9650202 /* CardTokenRequest.swift */,
+				87D3E8DA6AAB058ADB40626D82997994 /* CardType.swift */,
+				32B619899F8640BC3A1CA75F7927EF05 /* CardUtils.swift */,
+				A07CE270562745748879FBC14349B8DA /* CardView.swift */,
+				932F557FC6392BD715B2DBBA77CE2742 /* CardViewController.swift */,
+				C8DBF4C02B5B0D2DDC5F455D53B6E6E1 /* CardViewControllerDelegate.swift */,
+				2292672E5902590D3C46D598E3738AEB /* CheckoutAPIClient.swift */,
+				5C073EC91D8B358BA03EBEFE5B5BC68E /* CheckoutSdkIos.swift */,
+				6F66A5DB2886BC0438ACB4D735874B1A /* CheckoutTheme.swift */,
+				8BBEECF3AEA327F833BB2EB6E95A5BA8 /* CheckoutTokenStatus.swift */,
+				80DD9BCB04E301FD8B25DC1E5BE40298 /* CkoAddress.swift */,
+				1C301E3011F6D0A6A09728703FD836FE /* CkoCardTokenRequest.swift */,
+				86FCE91531B87A3A7208A126857757A7 /* CkoCardTokenResponse.swift */,
+				6491F1DA142D10CAEBDB5E5E89277903 /* CkoPhoneNumber.swift */,
+				8CCD69647999CBBB95C84310BF3A52BC /* Constants.swift */,
+				3BF0AAF3EC88CCDB7946CAC60D67413C /* CountrySelectionViewController.swift */,
+				6E0C9E70152B081A2AD435C000E3201A /* CountrySelectionViewControllerDelegate.swift */,
+				BB9C5ACE9864BA7759B153D5EE914849 /* Customer.swift */,
+				EADCB36ABCAE802885AD6CFB766F646B /* CustomerCard.swift */,
+				FEB53FC376BFEE9C64D8802DD35FF23B /* CustomerCardList.swift */,
+				41A04ECC92E0BE8C265357AFF3BD1DC6 /* CvvConfirmationViewController.swift */,
+				FF49B9865CFADEBB1C97986EDD4BA27B /* CvvConfirmationViewControllerDelegate.swift */,
+				1CCA71D8D20C3816DEE1923A43303407 /* CvvInputView.swift */,
+				9701833FB8BB97EADED5DF967560C640 /* CvvInputViewDelegate.swift */,
+				2AEBB27C916F9D0B327FC63416DE0AD1 /* DetailsInputView.swift */,
+				A43980C1B4B52D098D3A040B9E68FE4B /* DispatchQueue+Alamofire.swift */,
+				75DE974EDEFD81EF1C409F295A883381 /* Endpoint.swift */,
+				5717449FC7F53AAABE112DD4E047732C /* Environment.swift */,
+				1E823D1D8C563E5B960823AC5F5C84B4 /* ErrorResponse.swift */,
+				94FF692CAF7A6508CACD78CA3C75D9DA /* ExpirationDateInputView.swift */,
+				F772E309BDC11F7266C46D1B91516D82 /* ExpirationDatePicker.swift */,
+				DA8CAAC734E24847DF299FC6DA109F5F /* ExpirationDatePickerDelegate.swift */,
+				1F2BCF5F9238EFBBF4EDDBAC46323EB2 /* Formatter.swift */,
+				DD33D91601C15CE2EB8FA187052F4E07 /* InputState.swift */,
+				ED9DAE91A7A7DED8BCB0308A26F18C6F /* MetadataManager.swift */,
+				433028F251D1193581F5EFD130C3EC9A /* MetadataTypes.swift */,
+				23E68B593670CD653264959F13CF73EE /* MultipartFormData.swift */,
+				B459A08AB3CC0B5939056F19A3944892 /* NetworkReachabilityManager.swift */,
+				434F0035B157FB185A28DE9675EB3F8F /* Notifications.swift */,
+				EF982CEE18D29EE3EE37A77663431141 /* NSRegularExpression+Swift.swift */,
+				8B0FC0C99ACA228FE5D329BB5B8F0ED7 /* ParameterEncoding.swift */,
+				C6E97ADC265B52DCFBBA7D93900039A5 /* ParseManager.swift */,
+				8B28060B3E2F1FA495DABD0D8A1CC876 /* PartialFormatter.swift */,
+				9082CAE672D5927DBD2DF89622D8DFF5 /* PhoneNumber.swift */,
+				2DAE2D38A473D7EEEAE36D671598A40B /* PhoneNumberInputView.swift */,
+				32BF70C42976CDB165174BB1348C92C8 /* PhoneNumberKit.swift */,
+				B4FF02DCAA0D67280B45F6734E2B7C08 /* PhoneNumberParser.swift */,
+				36622858728D16F54B87103AB59484FB /* RegexManager.swift */,
+				FB8226DB37F570BC79A604F78DB8B73D /* Request.swift */,
+				3B156153F5896468F68F608C72ED5998 /* Response.swift */,
+				321BD956398F3BFD80C8E9A4C9025D8F /* ResponseSerialization.swift */,
+				79A6B847D5670CA07079ED885177725A /* Result.swift */,
+				EE98A4C7B3CEBB52D7128E5FA5895FF0 /* SchemeIconsStackView.swift */,
+				6615ED76D626470696EA265A2B1D47BF /* ServerTrustPolicy.swift */,
+				C9D8D5A2527F68F85C99D0B904D3F529 /* SessionDelegate.swift */,
+				8EB8916B11E59AC7D2FD925E15B31CC3 /* SessionManager.swift */,
+				832B1652F8B3DDEE41752464726DBD3B /* SimpleLoadingViewController.swift */,
+				22EE8F6B84EF32307BCE4C105CC21F29 /* StandardInputView.swift */,
+				2AFD799048FE243075B4A5B3BFE546E3 /* StringExtensions.swift */,
+				101675E43B14A66EE000D5CBBE4DD603 /* TaskDelegate.swift */,
+				2366F55C5786367749E462562A5F4EDD /* TextField.swift */,
+				813CDA1797906CCF790A01F00678B56C /* ThreedsWebViewController.swift */,
+				FE59A2899700ED4EF2E608DB51B85023 /* ThreedsWebViewControllerDelegate.swift */,
+				D6F7C99F689065072AF0D9525C35D1DE /* Timeline.swift */,
+				A7780CB33649EA704222E5D516C73481 /* TokenResponse.swift */,
+				002A1AD07300B2FA2CCE45D4AEF55626 /* UIResponderExtensions.swift */,
+				25850D2FFEC6D62D9777C25EBC965EAF /* UIViewControllerExtensions.swift */,
+				7249B090C0D784AC025BBB6CA7AE393F /* UIViewExtensions.swift */,
+				9FC5DA4BC25475302BB432A94B4CE230 /* Validation.swift */,
+				CF54FAEE1F568E4CBF6CC5642F17C208 /* Resources */,
+				37B1CE2C617662F7B29CC32578A26AEF /* Support Files */,
+			);
+			path = Frames;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C88F4D5100A9BAD1AFFC3D5E2F56BE72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDC1E8A61DBCB869BB6C47DC2DBF3D93 /* Frames.framework */,
+				B75E24326ACC5B6C1FDF94663808EED8 /* FramesIos.bundle */,
+				3A1AD86D88698C330DA8D78010883712 /* Pods_CheckoutSdk.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				0725EF431FEA8B66170295E67DBFD6CA /* Pods */,
+				C88F4D5100A9BAD1AFFC3D5E2F56BE72 /* Products */,
+				226094EEE2F36E0E3F73F3621537AA1E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CF54FAEE1F568E4CBF6CC5642F17C208 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3C3023D8DD55A35BE78691C7C8E4F05B /* arrows */,
+				D305F6516E66B385071345A8C97B72EF /* checkmark.png */,
+				BDB1C8F3CB540EE2CE021DA2762C3D19 /* checkmark@2x.png */,
+				10BB54F20D8C6CC31A1E24BA3FCFA00B /* checkmark@3x.png */,
+				C6A04DBE19D25D77CE7382EA2AD29EE0 /* checkmarks */,
+				01CF462D4B45340C1353098FDC08F506 /* icon-amex.png */,
+				333F0D0AB779391CB3377BDDEB894819 /* icon-amex@2x.png */,
+				CA543BE4B895586CC09CE54B0156F7BB /* icon-amex@3x.png */,
+				1DE7048DE03D2C4B43C00F45A8CA9BC4 /* icon-dinersclub.png */,
+				D9C9581949FD7ED6EF307DE75D6334FA /* icon-dinersclub@2x.png */,
+				631DD9F665472FEA62076A86E0716017 /* icon-dinersclub@3x.png */,
+				811A09DFE2A7A228C20F0DEA29F4F551 /* icon-discover.png */,
+				2D39988729DC670CA128B03898AB2045 /* icon-discover@2x.png */,
+				49EEDF585501EE5B103CC2EB70895116 /* icon-discover@3x.png */,
+				A7B56B957B52FEF5F852F8C2CAD95F3C /* icon-jcb.png */,
+				97FC3A20E36B0BB07106840BCD441BCA /* icon-jcb@2x.png */,
+				503BEB87AE9575CAD519951A71B92C12 /* icon-jcb@3x.png */,
+				EB81BE5EE28F5773F399F08425366528 /* icon-maestro.png */,
+				D30130C5B8DAAA69699C5B766C43BF01 /* icon-maestro@2x.png */,
+				30FAE83A1ADDC15A9893598E897BB179 /* icon-maestro@3x.png */,
+				514B52C0A80BDDC7504D1532E4430FF3 /* icon-mastercard.png */,
+				F8502440D9B5C5C1DED433E49934A02B /* icon-mastercard@2x.png */,
+				1534733FAF638439BB5B822DDAE7F0EC /* icon-mastercard@3x.png */,
+				EAE13E2ACF1745BAD732AABBCD5A4605 /* icon-visa.png */,
+				3D85CD0646C586FB8DC6E857E54A2B89 /* icon-visa@2x.png */,
+				1C6C3CA87E0D514D654FFE64FD92BA41 /* icon-visa@3x.png */,
+				8B3989BD16C26975018FA4094AD042AA /* keyboard-down.png */,
+				934573DA19DBCBB531ED761620D83EF5 /* keyboard-down@2x.png */,
+				2DDE65B4DE380D470C79F79DD6AAFDB9 /* keyboard-down@3x.png */,
+				4E0F496A15BF09DCB7067CC2E5296A28 /* keyboard-next.png */,
+				03B73736EC77DDDC4694E251926ABCAB /* keyboard-next@2x.png */,
+				CB5E9CC8592132EF288875C0B1EA84F1 /* keyboard-next@3x.png */,
+				73E829E5DD82B73342029BFA00D8FDA9 /* keyboard-previous.png */,
+				CB3C90C47C59B977C3965B3E1157792E /* keyboard-previous@2x.png */,
+				4B99C42273F35748DCB9AC8DC0194A48 /* keyboard-previous@3x.png */,
+				2A355E564543184E9DC42060A55CD8D9 /* Localizable.strings */,
+				5573F9C7A4E90ACB06913BBC6604A09B /* PhoneNumberMetadata.json */,
+				7C2483DDFAEDDC3418F9DB3BCC5BF2AC /* schemes */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1281FA035B0AA9C2FFA7E6E989EDB1C9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7C1B7810A1C6C951C723C531AFA2068 /* Frames-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B77E9B7FD3BF36AA76F02464227485F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F61FA69AE78E763163114C278D442CA /* Pods-CheckoutSdk-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0C0F2C602BFAABEF601822661EF634B8 /* Pods-CheckoutSdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE10A4CA2BE1B76FEB8AD637AAD009DA /* Build configuration list for PBXNativeTarget "Pods-CheckoutSdk" */;
+			buildPhases = (
+				8B77E9B7FD3BF36AA76F02464227485F /* Headers */,
+				54352D15DDD8B4769717953C06528001 /* Sources */,
+				7A042A4F857593F580BFCAEDC59F483D /* Frameworks */,
+				8923F275322C976307B21F58CD18C6D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD9920FEEC286D8C80DB4AA5D122D1D7 /* PBXTargetDependency */,
+			);
+			name = "Pods-CheckoutSdk";
+			productName = "Pods-CheckoutSdk";
+			productReference = 3A1AD86D88698C330DA8D78010883712 /* Pods_CheckoutSdk.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		68DAD084CC790BE884E7970E483D3194 /* Frames */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 940FB84D56D093FA82D0B490589CACA0 /* Build configuration list for PBXNativeTarget "Frames" */;
+			buildPhases = (
+				1281FA035B0AA9C2FFA7E6E989EDB1C9 /* Headers */,
+				F5EE075E2201E71E8085DC9BCA996E6B /* Sources */,
+				69DC04D881A84F5F54DEDFFE33C4B2D4 /* Frameworks */,
+				E61A681644DD878FFAF05FDDD8ACC3C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CB53CCC206E83204BB2602D764F69D6 /* PBXTargetDependency */,
+			);
+			name = Frames;
+			productName = Frames;
+			productReference = EDC1E8A61DBCB869BB6C47DC2DBF3D93 /* Frames.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7F21A7593A7F40045848B6215ED67E6C /* Frames-FramesIos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA9D082D6FE72D303ED3252831029536 /* Build configuration list for PBXNativeTarget "Frames-FramesIos" */;
+			buildPhases = (
+				AE97B1644F58BF87E7DB1EA91A44CAB0 /* Sources */,
+				157F9F6CA59EB33CB11318FB7D5F8B12 /* Frameworks */,
+				586A5878609AFFC86DC259C7111772FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Frames-FramesIos";
+			productName = "Frames-FramesIos";
+			productReference = B75E24326ACC5B6C1FDF94663808EED8 /* FramesIos.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				de,
+				es,
+				fr,
+				it,
+				nl,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C88F4D5100A9BAD1AFFC3D5E2F56BE72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68DAD084CC790BE884E7970E483D3194 /* Frames */,
+				7F21A7593A7F40045848B6215ED67E6C /* Frames-FramesIos */,
+				0C0F2C602BFAABEF601822661EF634B8 /* Pods-CheckoutSdk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		586A5878609AFFC86DC259C7111772FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C4941FEE47CCD8295CA96EC6071F50 /* arrows in Resources */,
+				E262DDE97C0EA4AD96FA2643292A1F1C /* checkmark.png in Resources */,
+				EFC48FB0442862789BBAAF4279A100DE /* checkmark@2x.png in Resources */,
+				4301A5EAD7B5C0024D60B6022C9F087A /* checkmark@3x.png in Resources */,
+				D404110BA736170F8A2BCED9E14A37BE /* checkmarks in Resources */,
+				B9A65607E718838CF723DB73B4086D25 /* icon-amex.png in Resources */,
+				37DD23CE51997EA9EFACF9661075FE95 /* icon-amex@2x.png in Resources */,
+				403A5CA0F2155A566722C2B9C04EFEC7 /* icon-amex@3x.png in Resources */,
+				927FD88863E4E286BFA62CCEAE9315CB /* icon-dinersclub.png in Resources */,
+				2C9F93256B37CC009724C6C554943E46 /* icon-dinersclub@2x.png in Resources */,
+				0A7D4E92D3231BA19BFDD5D8B31538D7 /* icon-dinersclub@3x.png in Resources */,
+				32AC94A3A03B3ED34485A6BA6FA20905 /* icon-discover.png in Resources */,
+				866457B5A3E6391AACD0FBAC192F2686 /* icon-discover@2x.png in Resources */,
+				5B6273FFBFD5BF4A156DC07DBBC6F75F /* icon-discover@3x.png in Resources */,
+				9E641F3DF68A3F8680F8CE7656987655 /* icon-jcb.png in Resources */,
+				C73DFFA1F8345EB2580C2C854AD6D6C4 /* icon-jcb@2x.png in Resources */,
+				048D0AC16ACB0B27DE7756B262862BB4 /* icon-jcb@3x.png in Resources */,
+				F7957028E0B894490367F8C0D8F677EF /* icon-maestro.png in Resources */,
+				B8387B4857AAD39EE885FEA3D94C209C /* icon-maestro@2x.png in Resources */,
+				B27244922E634AFE93F67FC44350B024 /* icon-maestro@3x.png in Resources */,
+				7FC336356FE5FF781BE5B3B9E6F5D7E8 /* icon-mastercard.png in Resources */,
+				017EA540FC83783BAEC4C97BD18227E1 /* icon-mastercard@2x.png in Resources */,
+				6B649F4B05AA72608B1D41487073A3DB /* icon-mastercard@3x.png in Resources */,
+				77DF6CA097AC49BEF3A38C10E55C4548 /* icon-visa.png in Resources */,
+				F91A3A0DF4F487FCD650B751206211AB /* icon-visa@2x.png in Resources */,
+				C3A73F4FBB6537D83E598DF84FC31479 /* icon-visa@3x.png in Resources */,
+				A9C9794C52608F496EFDC1BA80068063 /* keyboard-down.png in Resources */,
+				799E48B1A81E0137A88F29995B68BB7C /* keyboard-down@2x.png in Resources */,
+				A7ED73E2D48A3CA099EC06E32EF31E10 /* keyboard-down@3x.png in Resources */,
+				D11FD838F34969F90E118658EDCF144B /* keyboard-next.png in Resources */,
+				03F032821521BAD618FAF9132E3A9D24 /* keyboard-next@2x.png in Resources */,
+				CABF889D2D8CBDCF628B424C95FCBBFC /* keyboard-next@3x.png in Resources */,
+				E1AE7E9353768462A0D0F9C51B8A61C1 /* keyboard-previous.png in Resources */,
+				F6E7C06609D87279ED10A94A0CFB0B8A /* keyboard-previous@2x.png in Resources */,
+				024B6B2C002D4A3D04759B63573B5951 /* keyboard-previous@3x.png in Resources */,
+				EE305DD4CC3AE5449E9F13F59482A8D2 /* Localizable.strings in Resources */,
+				37712065F5F655CE6C0EF85BBDCF6C94 /* PhoneNumberMetadata.json in Resources */,
+				A18B4489FA9E51F4DBC5454C856B8218 /* schemes in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8923F275322C976307B21F58CD18C6D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E61A681644DD878FFAF05FDDD8ACC3C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A880C19D889F551C122272B712BB877C /* FramesIos.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54352D15DDD8B4769717953C06528001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC1B9F6E7992C21AE69C38235B4CF3F /* Pods-CheckoutSdk-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE97B1644F58BF87E7DB1EA91A44CAB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5EE075E2201E71E8085DC9BCA996E6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761A57CAD92295C4DB6170DE3D5293EB /* Address.swift in Sources */,
+				1409C62D9896265411B29D5EC97EE573 /* AddressView.swift in Sources */,
+				15501D17919A57585551626DB0B417A3 /* AddressViewController.swift in Sources */,
+				17166E4EBF18AC641F68688162F97AAA /* AddressViewControllerDelegate.swift in Sources */,
+				998A3BB6431EE63F93B964DBCC086B31 /* AFError.swift in Sources */,
+				1D9279842BAE4EE7A92A8FB8EAE8A543 /* Alamofire.swift in Sources */,
+				483991E1B15984C8008E855D308C5F97 /* ApplePayErrorResponse.swift in Sources */,
+				272C5748B268088D7EA156678DAC97AD /* ApplePayToken.swift in Sources */,
+				B607C79E3B544A35D1C18D062BC8420F /* ApplePayTokenRequest.swift in Sources */,
+				97068FB3B52E6CA43B07872FBDDD6E23 /* Card.swift in Sources */,
+				D82C3DD6623609C2BF1A48B76B5A0A43 /* CardListCell.swift in Sources */,
+				3DC35341D4076DEB1627559D970471ED /* CardListCellName.swift in Sources */,
+				F451B0A511F7DFD5C5CD921968A9732C /* CardNumberInputView.swift in Sources */,
+				1B05DDEA42CF58C56AFFD33456B9BACF /* CardNumberInputViewDelegate.swift in Sources */,
+				83AFDF36BAA3704783F27F05EF8126C7 /* CardProvider.swift in Sources */,
+				2D3BC3C5D4C01C8BCA3A5DD27C13246F /* CardProviderResponse.swift in Sources */,
+				6B31604E5E3406F7FA344FB0B3FDE7C3 /* CardScheme.swift in Sources */,
+				A0CAD2FA35549831C9E718E9160E7AEC /* CardTokenRequest.swift in Sources */,
+				96A0D2376259D438F065E5423FA767D0 /* CardType.swift in Sources */,
+				10217219A5E63E0D5B4CB7E9E976EB95 /* CardUtils.swift in Sources */,
+				47D2EFEAC88422488A3A45BE9DAB6DCF /* CardView.swift in Sources */,
+				3059B346BA6E7EA80408760785A9F0FD /* CardViewController.swift in Sources */,
+				2EC3312667E38DC98E1F783141EBDED0 /* CardViewControllerDelegate.swift in Sources */,
+				DF7F28C4DD5BAD934130AB3CB5109F4A /* CheckoutAPIClient.swift in Sources */,
+				563D00441DC28D0611534F4864040D1E /* CheckoutSdkIos.swift in Sources */,
+				C2EBF4404ECF10E632CC074C6DFEA906 /* CheckoutTheme.swift in Sources */,
+				2D52EDC722B46725636923CB0668F0EE /* CheckoutTokenStatus.swift in Sources */,
+				398712FEA989082E9AF7C530BA8378B5 /* CkoAddress.swift in Sources */,
+				789E2EF8C706FE300EDC1235F7088CC1 /* CkoCardTokenRequest.swift in Sources */,
+				34844AD05D5778864E15A90698500288 /* CkoCardTokenResponse.swift in Sources */,
+				77BE32E20F77EE3E936EF85B5031F5E3 /* CkoPhoneNumber.swift in Sources */,
+				3FD5E0EDD4B7665963E300FC085E80C0 /* Constants.swift in Sources */,
+				DE72BD8B86BA15A52CE69C12C070CA9C /* CountrySelectionViewController.swift in Sources */,
+				AC8885BD830DE87B7E3E7A45AC3A2A68 /* CountrySelectionViewControllerDelegate.swift in Sources */,
+				FD0A6A885E7CDD07BCCFD21C137D50B4 /* Customer.swift in Sources */,
+				28427CA6475154595A9500D957D0DB4C /* CustomerCard.swift in Sources */,
+				EFA0EE0559A7C975C97101B4BA35DF10 /* CustomerCardList.swift in Sources */,
+				869962B22568627362C46956E1F483BA /* CvvConfirmationViewController.swift in Sources */,
+				942E836CD9D53889A93FF87FF42B1E50 /* CvvConfirmationViewControllerDelegate.swift in Sources */,
+				2B354DBDF90220FF025398030F32B15F /* CvvInputView.swift in Sources */,
+				2F8F26748D424D5E5EB2545B962A7200 /* CvvInputViewDelegate.swift in Sources */,
+				69DE015B95EA0119633380C3A19204FF /* DetailsInputView.swift in Sources */,
+				DD130B4E50ACEF0CD9686A7B81F63635 /* DispatchQueue+Alamofire.swift in Sources */,
+				9056827BB52135514CD8A93E82975D82 /* Endpoint.swift in Sources */,
+				D7D143A321D110C9A7C1377E0152C347 /* Environment.swift in Sources */,
+				EBB645BD3F3E28E51B8F00B1B6A0A514 /* ErrorResponse.swift in Sources */,
+				7FA12EB2F05572350F3C9093F59488F0 /* ExpirationDateInputView.swift in Sources */,
+				F6ABB07208B6674BAC9F5F43BCCA79D8 /* ExpirationDatePicker.swift in Sources */,
+				7F25AF26F11D6CB978B70FFC2F85283F /* ExpirationDatePickerDelegate.swift in Sources */,
+				1DD7F12F6E79F2B27262D7AB007F5809 /* Formatter.swift in Sources */,
+				5727D1CA0B9BDFACC1E2C7933DB31F8C /* Frames-dummy.m in Sources */,
+				98C7904F9BEA2C3D23271BBED33361D0 /* InputState.swift in Sources */,
+				0283D22D46142521967A36C35663C5A0 /* MetadataManager.swift in Sources */,
+				9491BB981413FA7A30D60BF72915E717 /* MetadataTypes.swift in Sources */,
+				A2F2BD37A3A432FE48D568040682DA10 /* MultipartFormData.swift in Sources */,
+				CD59AD3BF1B6CCBF4796E0AB6D015EA1 /* NetworkReachabilityManager.swift in Sources */,
+				D4B7ED8B99FB12506E57C83B6722BF6E /* Notifications.swift in Sources */,
+				BA4870F916093091A1AB567040DA009A /* NSRegularExpression+Swift.swift in Sources */,
+				A5835D3C93A7EBD6837C76C02137BF5E /* ParameterEncoding.swift in Sources */,
+				7D0331E2E88DB3B3EC98ADED569AD7A9 /* ParseManager.swift in Sources */,
+				2561FD789C74E4FEEACCB6824B7DBFFB /* PartialFormatter.swift in Sources */,
+				FC53ABDA95805AA02DEB9095D6B1576D /* PhoneNumber.swift in Sources */,
+				8328C57B7FBC80401E45E722C179C53B /* PhoneNumberInputView.swift in Sources */,
+				005F20137F9BC29CD475B919BF5C02D8 /* PhoneNumberKit.swift in Sources */,
+				27A41F43495E93CE232FC60A776A2217 /* PhoneNumberParser.swift in Sources */,
+				CF4BF588856299A170D79A1E9A63580F /* RegexManager.swift in Sources */,
+				05AAD5A903BC3FB1FD1F420FADBEA269 /* Request.swift in Sources */,
+				468D6F78102C92CA7719C6B2FBE5CB3E /* Response.swift in Sources */,
+				4BAF36EE2D785DAD0E2543A7193A7AB2 /* ResponseSerialization.swift in Sources */,
+				8222627C80837A2A0E8BF712A5F9891B /* Result.swift in Sources */,
+				F58AA02FFFF67AA1095EDB2324522C34 /* SchemeIconsStackView.swift in Sources */,
+				23BE4112574FE491895A50E35EE551CE /* ServerTrustPolicy.swift in Sources */,
+				22E76D244C8166534AAE658D34D9DD84 /* SessionDelegate.swift in Sources */,
+				0695789551FEE35993478F454CC9A294 /* SessionManager.swift in Sources */,
+				79337828E5688ED0FC6C17C0354103F1 /* SimpleLoadingViewController.swift in Sources */,
+				F61613404C3077231305AF5F57CCAA46 /* StandardInputView.swift in Sources */,
+				CCD91DB96B888E838C303104A3DE22ED /* StringExtensions.swift in Sources */,
+				3E3E8666FB400DBD752130C2AC3CA7E9 /* TaskDelegate.swift in Sources */,
+				A7480DA4BEF44E97F92E16107BA50D28 /* TextField.swift in Sources */,
+				FF3D93AA4F590B8E401AA6DC7C3AEB4E /* ThreedsWebViewController.swift in Sources */,
+				C4DF8CFC07C8544A544D234F54BA0092 /* ThreedsWebViewControllerDelegate.swift in Sources */,
+				446090F8C8D0D77E8A442ADDEAD0B765 /* Timeline.swift in Sources */,
+				07CF422C95F749E3AB2DAD68332F9FA6 /* TokenResponse.swift in Sources */,
+				3CDD8950F56E651DFFBCD023FA6880A7 /* UIResponderExtensions.swift in Sources */,
+				5A9B9406796029AD288E3446A445F5FD /* UIViewControllerExtensions.swift in Sources */,
+				0A26E46CB07786AACF56585DBCCF3DBD /* UIViewExtensions.swift in Sources */,
+				830525BF964C83850738A4A3103D4B70 /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CB53CCC206E83204BB2602D764F69D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Frames-FramesIos";
+			target = 7F21A7593A7F40045848B6215ED67E6C /* Frames-FramesIos */;
+			targetProxy = 360E057E79866CCE5F662E77462A09AB /* PBXContainerItemProxy */;
+		};
+		BD9920FEEC286D8C80DB4AA5D122D1D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Frames;
+			target = 68DAD084CC790BE884E7970E483D3194 /* Frames */;
+			targetProxy = 3B9297FA958D9289D3C1AC9BBAD13F5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A355E564543184E9DC42060A55CD8D9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				543B8F6C9445034BB29B6A023B86C1DE /* Localizable.strings */,
+				F1929C59323F92F47679A10B8FDF1C32 /* Localizable.strings */,
+				ED258950D33E93C2DA34B3989138960E /* Localizable.strings */,
+				8D70E8DF4F6FF2DF67F9C6DFAD555E50 /* Localizable.strings */,
+				74FB3FFB210CA923EC700CF1D26C3AAF /* Localizable.strings */,
+				35B181413384A6870554494BE37EA00E /* Localizable.strings */,
+			);
+			name = Localizable.strings;
+			path = Source/Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24AC0BD1B5F240260826F0E90739EA74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A04A0F54A708ED6751D6755BE88BAB0E /* Frames.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Frames/Frames-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Frames/Frames-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Frames/Frames.modulemap";
+				PRODUCT_MODULE_NAME = Frames;
+				PRODUCT_NAME = Frames;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2E85D4C81E3C10A27C8D9B8A8783427A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE1B2FC5A57D5487B77BDA338210358B /* Pods-CheckoutSdk.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CheckoutSdk/Pods-CheckoutSdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CheckoutSdk/Pods-CheckoutSdk.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3048B0C5C704DFFF688DA57F5380ED58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		33C55F2282FE46A169955F92E45F4E2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A04A0F54A708ED6751D6755BE88BAB0E /* Frames.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Frames/Frames-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Frames/Frames-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Frames/Frames.modulemap";
+				PRODUCT_MODULE_NAME = Frames;
+				PRODUCT_NAME = Frames;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5B0C8287D755FD95091CF35D87FB8B2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5B70504A3027E3C961192CE5ABB64AB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A04A0F54A708ED6751D6755BE88BAB0E /* Frames.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Frames";
+				INFOPLIST_FILE = "Target Support Files/Frames/ResourceBundle-FramesIos-Frames-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = FramesIos;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B58E29D5DE40FF66CBAB389400C6B8B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A04A0F54A708ED6751D6755BE88BAB0E /* Frames.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Frames";
+				INFOPLIST_FILE = "Target Support Files/Frames/ResourceBundle-FramesIos-Frames-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = FramesIos;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D92FFE9FE1508D75F5935900ADE0653F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 546767604199F7629C434FE2AC6EF5E2 /* Pods-CheckoutSdk.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CheckoutSdk/Pods-CheckoutSdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CheckoutSdk/Pods-CheckoutSdk.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B0C8287D755FD95091CF35D87FB8B2D /* Debug */,
+				3048B0C5C704DFFF688DA57F5380ED58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		940FB84D56D093FA82D0B490589CACA0 /* Build configuration list for PBXNativeTarget "Frames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24AC0BD1B5F240260826F0E90739EA74 /* Debug */,
+				33C55F2282FE46A169955F92E45F4E2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE10A4CA2BE1B76FEB8AD637AAD009DA /* Build configuration list for PBXNativeTarget "Pods-CheckoutSdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D92FFE9FE1508D75F5935900ADE0653F /* Debug */,
+				2E85D4C81E3C10A27C8D9B8A8783427A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA9D082D6FE72D303ED3252831029536 /* Build configuration list for PBXNativeTarget "Frames-FramesIos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B70504A3027E3C961192CE5ABB64AB0 /* Debug */,
+				B58E29D5DE40FF66CBAB389400C6B8B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

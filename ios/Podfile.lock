@@ -1,0 +1,16 @@
+PODS:
+  - Frames (2.6.4)
+
+DEPENDENCIES:
+  - Frames (~> 2.6)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Frames
+
+SPEC CHECKSUMS:
+  Frames: a739291fb8cc0e1e962ca8a53e60b5c7d6191392
+
+PODFILE CHECKSUM: e1e7d0364c03431d627109b9a44c6f73d514c154
+
+COCOAPODS: 1.6.1
