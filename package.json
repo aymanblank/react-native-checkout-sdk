@@ -2,7 +2,7 @@
   "name": "react-native-checkout-sdk",
   "title": "React Native Checkout Sdk",
   "version": "1.0.0",
-  "description": "",
+  "description": "React Native Checkout.com SDK integration",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
