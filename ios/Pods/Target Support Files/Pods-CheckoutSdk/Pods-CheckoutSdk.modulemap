@@ -1,0 +1,6 @@
+framework module Pods_CheckoutSdk {
+  umbrella header "Pods-CheckoutSdk-umbrella.h"
+
+  export *
+  module * { export * }
+}
