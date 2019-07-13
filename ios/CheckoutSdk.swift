@@ -1,5 +1,5 @@
 //
-//  Bulb.swift
+//  CheckoutSdk.swift
 //  CheckoutSdk
 //
 //  Created by Ayman Blank on 7/13/19.

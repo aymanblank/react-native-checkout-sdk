@@ -1,3 +1,11 @@
+//
+//  CheckoutSdkView.swift
+//  CheckoutSdk
+//
+//  Created by Ayman Blank on 7/13/19.
+//  Copyright © 2019 Facebook. All rights reserved.
+//
+
 import UIKit
 class CheckoutSdkView: UIView {
     @objc var onStatusChange: RCTDirectEventBlock?
