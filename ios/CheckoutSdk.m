@@ -1,19 +1,6 @@
-#import "CheckoutSdk.h"
+#import <React/RCTViewManager.h>
 
-@implementation CheckoutSdk
-
-RCT_EXPORT_MODULE()
-
-- (UIView *)view
-{
-    // TODO: Implement some real useful functionality
-    UILabel * label = [[UILabel alloc] init];
-    [label setTextColor:[UIColor redColor]];
-    [label setText: @"*****"];
-    [label sizeToFit];
-    UIView * wrapper = [[UIView alloc] init];
-    [wrapper addSubview:label];
-    return wrapper;
-}
-
+@interface RCT_EXTERN_MODULE(CheckoutSdk, RCTViewManager)
+RCT_EXPORT_VIEW_PROPERTY(isOn, BOOL)
+RCT_EXPORT_VIEW_PROPERTY(onStatusChange, RCTDirectEventBlock)
 @end

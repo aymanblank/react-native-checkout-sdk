@@ -1,7 +1,7 @@
 {
   "name": "react-native-checkout-sdk",
   "title": "React Native Checkout Sdk",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "React Native Checkout.com SDK integration",
   "main": "index.js",
   "scripts": {
